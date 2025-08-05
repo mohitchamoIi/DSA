@@ -1,6 +1,6 @@
 #include<stdio.h>
 void rotate(int arr[],int n, int r){
-    int temp[n];\
+    int temp[n];
     int j=0;
     for(int i=r;i<n;i++){
         temp[j++]=arr[i];
@@ -37,3 +37,4 @@ int main(){
         
     }
 }
+
