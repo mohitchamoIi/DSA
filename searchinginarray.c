@@ -2,7 +2,7 @@
 int arraysearch(int n, int arr[][n], int x)
 {
     int i=0;
-    int j=n-1; // Start from the last column
+    int j=n-1; // Start from the last column n-1
     while(i<n && j>=0) 
     {
         if(arr[i][j] == x) {
@@ -38,4 +38,5 @@ int main()
         printf("Number not found in the array.\n");
     }
     return 0;
+
 }
