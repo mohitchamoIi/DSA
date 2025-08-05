@@ -14,7 +14,7 @@ int minimum(int arr[], int n, int x, int y)
     }
         if(ix ==-1 || iy == -1)
         {
-            return -1; // If either x or y is not found
+            return -1; // If either x or y is not found.
         }
         else
         {
@@ -52,4 +52,5 @@ int main()
             printf("The minimum distance between %d and %d is: %d\n", x, y, dis);
         }
     }
+
 }
