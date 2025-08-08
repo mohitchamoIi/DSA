@@ -8,7 +8,7 @@ int checkodd(int a[], int n)
     }
     if(count == 0)
     {
-        return 0; // If no odd count number is found
+        return 0; // If no odd count number is found then 0
     }   
     else
     return count; // If no odd count number is found
@@ -39,4 +39,5 @@ int main()
             printf("Number with odd count is: %d\n", count);
         }
     }
+
 }
